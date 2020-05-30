@@ -1,15 +1,15 @@
 import React from 'react';
-import obj from "./Main.module.css";
+import obj from "./Not_Your_Message.module.css";
 
-function Main() {
+function Not_Your_Message() {
 
-    let name = "Alexey Gorbachevskiy";
+    let name = "Boris Berezovskiy";
     let message_text = "Hey, how you doing? "
     let time = "20:00";
     return (
         <div className={obj.message_container}>
             <div className={obj.img_wrapper}>
-                <img className={obj.image} src={require("../images/img.png")} alt="img"/>
+                <img className={obj.image} src={require("../../../images/img.png")} alt="img"/>
             </div>
             <div className={obj.message_body}>
                 <h4>{name}</h4>
@@ -22,11 +22,10 @@ function Main() {
                     <p className={obj.time}>{time}</p>
                 </div>
 
-
             </div>
         </div>
     );
 }
 
 
-export default Main;
+export default Not_Your_Message;
