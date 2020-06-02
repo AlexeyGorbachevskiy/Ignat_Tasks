@@ -1,15 +1,15 @@
 import React from 'react';
-import obj from "./Not_Your_Message.module.css";
+import obj from './NotYourMessage.module.css';
 
-function Not_Your_Message() {
+function NotYourMessage() {
 
-    let name = "Boris Berezovskiy";
-    let message_text = "Hey, how you doing? "
-    let time = "20:00";
+    const name = 'Boris Berezovskiy';
+    const message_text = 'Hey, how you doing?'
+    const time = '20:00';
     return (
         <div className={obj.message_container}>
             <div className={obj.img_wrapper}>
-                <img className={obj.image} src={require("../../../images/img.png")} alt="img"/>
+                <img className={obj.image} src={require('../../../images/img.png')} alt='img'/>
             </div>
             <div className={obj.message_body}>
                 <h4>{name}</h4>
@@ -28,4 +28,4 @@ function Not_Your_Message() {
 }
 
 
-export default Not_Your_Message;
+export default NotYourMessage;

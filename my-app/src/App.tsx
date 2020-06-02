@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Not_Your_Message from "./components/Message_Body/Not_Your_Message/Not_Your_Message";
-import Your_Message from "./components/Message_Body/Your_Message/Your_Message";
+import NotYourMessage from './components/MessageBody/NotYourMessage/NotYourMessage';
+import YourMessage from './components/MessageBody/YourMessage/YourMessage';
+
 
 function App() {
     return (
-        <div className={"container"}>
-          <Not_Your_Message />
-          <Your_Message/>
+        <div className={'container'}>
+            <NotYourMessage/>
+            <YourMessage/>
         </div>
     );
 }

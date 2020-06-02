@@ -1,11 +1,11 @@
 import React from 'react';
-import obj from "./Your_Message.module.css";
+import obj from './YourMessage.module.css';
 
-function Your_Message() {
+function YourMessage() {
 
-    let name = "I'm";
-    let message_text = "I'am fine. How're you? "
-    let time = "20:00";
+    const name = 'I\'m';
+    const message_text = 'I\'am fine. How\'re you?';
+    const time = '20:00';
     return (
         <div className={obj.message_container}>
 
@@ -20,13 +20,9 @@ function Your_Message() {
                     <p className={obj.time}>{time}</p>
                 </div>
             </div>
-
-            {/*<div className={obj.img_wrapper}>*/}
-            {/*    <img className={obj.image} src={require("../../../images/img.png")} alt="img"/>*/}
-            {/*</div>*/}
         </div>
     );
 }
 
 
-export default Your_Message;
+export default YourMessage;
