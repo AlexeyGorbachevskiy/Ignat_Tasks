@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.header{
+    color: darkturquoise;
+}
+
+.affair{
+    font-size: 20px;
+    color: yellow;
+ }
+
+.remove{
+    cursor: pointer;
+    margin-left: 5px;
+    width: 40px;
+    height: 20px;
+}
+
+.filter_btn_wrapper{
+    display: flex;
+}
+
+.filter_btn{
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    width: 70px;
+    height: 34px;
+}

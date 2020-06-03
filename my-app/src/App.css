@@ -1,9 +1,23 @@
 .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-width: 100vw;
+    min-height: 100vh;
     background-color: darkred;
-    width: 100vw;
-    height: 100vh;
+}
+
+.messages_container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.affairs_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*font-size: 20px;*/
+}
+

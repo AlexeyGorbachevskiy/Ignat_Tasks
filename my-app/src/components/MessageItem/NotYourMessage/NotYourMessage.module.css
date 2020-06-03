@@ -3,12 +3,13 @@
     padding: 0;
 }
 
+
 .message_container {
     margin-bottom: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
-    background-color: lawngreen;
+    /*background-color: lawngreen;*/
     width: 300px;
     height: auto;
 }
@@ -54,8 +55,7 @@
 }
 
 .message_text {
-    margin-top: 5px;
-    margin-left: 5px;
+    margin: 5px;
     color: #ffffff;
     word-wrap: break-word;
 
