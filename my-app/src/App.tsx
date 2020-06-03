@@ -22,9 +22,7 @@ function App(props: StatePropsType) {
         setFilter(priority);
     }
 
-    if (filter === 'all') {
-        restOfAffairs = affairsArray.filter((t) => true);
-    }
+
     if (filter === 'high') {
         restOfAffairs = affairsArray.filter((t) => t.priority === 'high');
     }
