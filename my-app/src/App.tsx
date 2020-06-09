@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import './App.css';
-import NotYourMessage from './components/First task/MessageItem/NotYourMessage/NotYourMessage';
-import YourMessage from './components/First task/MessageItem/YourMessage/YourMessage';
+import NotYourMessage from './components/FirstTask/MessageItem/NotYourMessage/NotYourMessage';
+import YourMessage from './components/FirstTask/MessageItem/YourMessage/YourMessage';
 import {StatePropsType} from "./redux/state";
-import MyAffairs from "./components/Second task/MyAffairs/MyAffairs";
+import MyAffairs from "./components/SecondTask/MyAffairs/MyAffairs";
 import Header from "./components/Header/Header";
 import {BrowserRouter, Route} from "react-router-dom";
-import FirstTask from "./components/First task/FirstTask";
-import SecondTask from "./components/Second task/SecondTask";
+import FirstTask from "./components/FirstTask/FirstTask";
+import SecondTask from "./components/SecondTask/SecondTask";
 import ThirdTask from "./components/ThirdTask/ThirdTask";
 
 export type FilterStateType = 'all' | 'high' | 'medium' | 'low';
