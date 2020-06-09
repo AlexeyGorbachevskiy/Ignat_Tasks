@@ -1,51 +1,33 @@
 import React, {useState} from 'react';
 import './App.css';
-import NotYourMessage from './components/MessageItem/NotYourMessage/NotYourMessage';
-import YourMessage from './components/MessageItem/YourMessage/YourMessage';
+import NotYourMessage from './components/First task/MessageItem/NotYourMessage/NotYourMessage';
+import YourMessage from './components/First task/MessageItem/YourMessage/YourMessage';
 import {StatePropsType} from "./redux/state";
-import MyAffairs from "./components/MyAffairs/MyAffairs";
+import MyAffairs from "./components/Second task/MyAffairs/MyAffairs";
+import Header from "./components/Header/Header";
+import {BrowserRouter, Route} from "react-router-dom";
+import FirstTask from "./components/First task/FirstTask";
+import SecondTask from "./components/Second task/SecondTask";
+import ThirdTask from "./components/ThirdTask/ThirdTask";
 
 export type FilterStateType = 'all' | 'high' | 'medium' | 'low';
 
 function App(props: StatePropsType) {
 
-    const [affairsArray, setAffairsArray] = useState(props.state.myAffairs.affairsInitArray);
-    const [filter, setFilter] = useState<FilterStateType>('all');
-    let restOfAffairs = affairsArray;
-
-    function removeAffair(id: number) {
-        const filteredAffairsArray = affairsArray.filter(affairsArrayElement => id !== affairsArrayElement.id);
-        setAffairsArray(filteredAffairsArray);
-    };
-
-    function filterAffair(priority: FilterStateType) {
-        setFilter(priority);
-    }
-
-
-    if (filter === 'high') {
-        restOfAffairs = affairsArray.filter((t) => t.priority === 'high');
-    }
-    if (filter === 'medium') {
-        restOfAffairs = affairsArray.filter((t) => t.priority === 'medium');
-    }
-    if (filter === 'low') {
-        restOfAffairs = affairsArray.filter((t) => t.priority === 'low');
-    }
-
-
     return (
-        <div className={'container'}>
-            <div className={'messages_container'}>
-                <YourMessage yourMessage={props.state.yourMessage[0]}/>
-                <NotYourMessage notYourMessage={props.state.notYourMessage[0]}/>
-                <YourMessage yourMessage={props.state.yourMessage[1]}/>
-                <NotYourMessage notYourMessage={props.state.notYourMessage[1]}/>
+        <BrowserRouter>
+            <div className={'container'}>
+                <Header/>
+                <div className={'content'}>
+                    <Route exact path='/' render={() => <span className={'greeting'}>Hi, how u doing?</span>}/>
+                    <Route path='/first_task' render={() => <FirstTask state={props.state}/>}/>
+                    <Route path='/second_task' render={() => <SecondTask state={props.state}/>}/>
+                    <Route path='/third_task' render={() => <ThirdTask state={props.state}/>}/>
+
+                </div>
+
             </div>
-            <div className={'affairs_container'}>
-                <MyAffairs affairs={restOfAffairs} removeAffair={removeAffair} filterAffair={filterAffair}/>
-            </div>
-        </div>
+        </BrowserRouter>
     );
 }
 

@@ -2,10 +2,15 @@
     margin:0;
     padding: 0;
 }
+.affairs_container{
+    background-color: darkred;
+    padding: 10px 25px;
 
+}
 
 .header{
     color: darkturquoise;
+    text-align: center;
 }
 
 .affair{
@@ -22,6 +27,7 @@
 
 .filter_btn_wrapper{
     display: flex;
+    justify-content: center;
 }
 
 .filter_btn{

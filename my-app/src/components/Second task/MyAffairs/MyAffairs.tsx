@@ -1,7 +1,7 @@
 import React from 'react';
 import obj from './MyAffairs.module.css';
-import {AffairsInitArrayType} from   '../../redux/state';
-import {FilterStateType} from "../../App";
+import {AffairsInitArrayType} from '../../../redux/state';
+import {FilterStateType} from "../../../App";
 
 
 
@@ -25,9 +25,9 @@ function MyAffairs(props:MyAffairsPropsType) {
     )
 
     return (
-        <span className={obj.affairs_container}>
+        <div className={obj.affairs_container}>
+            <h1 className={obj.header}>My Affairs</h1>
             <ol>
-                <h1 className={obj.header}>My Affairs</h1>
                 {affairMapElement}
             </ol>
             <span className={obj.filter_btn_wrapper}>
@@ -44,7 +44,7 @@ function MyAffairs(props:MyAffairsPropsType) {
                     props.filterAffair('low')
                 }} className={obj.filter_btn}>Low priority</button>
             </span>
-        </span>
+        </div>
     );
 }
 
