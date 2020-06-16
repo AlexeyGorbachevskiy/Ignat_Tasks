@@ -1,7 +1,7 @@
 {
   "name": "my-app",
-  "homepage": "https://github.io/AlexeyGorbachevskiy/Ignat_Tasks",
-  "version": "0.1.0",
+  "homepage": "https://alexeygorbachevskiy.github.io/Ignat_Tasks/",
+  "version",: "0.1.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
