@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AlexeyGorbachevskiy/Ignat_Tasks/static/css/main.018f5e4b.chunk.css",
+    "main.js": "/AlexeyGorbachevskiy/Ignat_Tasks/static/js/main.b5dafc0d.chunk.js",
+    "main.js.map": "/AlexeyGorbachevskiy/Ignat_Tasks/static/js/main.b5dafc0d.chunk.js.map",
+    "runtime-main.js": "/AlexeyGorbachevskiy/Ignat_Tasks/static/js/runtime-main.b7bc5a79.js",
+    "runtime-main.js.map": "/AlexeyGorbachevskiy/Ignat_Tasks/static/js/runtime-main.b7bc5a79.js.map",
+    "static/js/2.4d4be7db.chunk.js": "/AlexeyGorbachevskiy/Ignat_Tasks/static/js/2.4d4be7db.chunk.js",
+    "static/js/2.4d4be7db.chunk.js.map": "/AlexeyGorbachevskiy/Ignat_Tasks/static/js/2.4d4be7db.chunk.js.map",
+    "index.html": "/AlexeyGorbachevskiy/Ignat_Tasks/index.html",
+    "precache-manifest.e559a0e271c47a82bd8d28def41ebf89.js": "/AlexeyGorbachevskiy/Ignat_Tasks/precache-manifest.e559a0e271c47a82bd8d28def41ebf89.js",
+    "service-worker.js": "/AlexeyGorbachevskiy/Ignat_Tasks/service-worker.js",
+    "static/css/main.018f5e4b.chunk.css.map": "/AlexeyGorbachevskiy/Ignat_Tasks/static/css/main.018f5e4b.chunk.css.map",
+    "static/js/2.4d4be7db.chunk.js.LICENSE.txt": "/AlexeyGorbachevskiy/Ignat_Tasks/static/js/2.4d4be7db.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7bc5a79.js",
+    "static/js/2.4d4be7db.chunk.js",
+    "static/css/main.018f5e4b.chunk.css",
+    "static/js/main.b5dafc0d.chunk.js"
+  ]
+}
