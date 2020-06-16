@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
 .menu {
     position: fixed;
     top: 0;
@@ -31,19 +36,45 @@
 }
 
 
-.menu_btn {
+.menu_btn1 {
     cursor: pointer;
     position: absolute;
     top: 10px;
-    right: -35px;
+    right: -45px;
 
     width: 30px;
     height: 30px;
-    background-color: #000000;
+    color: white;
     outline: none;
     font-family: -apple-system;
+    transition: color;
+    transition-duration: 1s;
 }
 
+.menu_btn1:hover {
+    color: red;
+}
+
+.menu_btn2 {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+
+    width: 30px;
+    height: 30px;
+    /*background-color: #000000;*/
+    color: white;
+    outline: none;
+    font-family: -apple-system;
+    transition: color;
+    transition-duration: 1s;
+
+}
+
+.menu_btn2:hover {
+    color: red;
+}
 
 
 .link {
@@ -77,7 +108,8 @@
     position: relative;
     display: inline-block;
     /*top:-17px; left:5px;*/
-    top:5px; right:120px;
+    top: 5px;
+    right: 120px;
 }
 
 .pre_junior_dropdown_content {
