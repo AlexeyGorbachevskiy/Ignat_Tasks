@@ -22,9 +22,7 @@ function ThirdTask(props: StatePropsType) {
     const onInputChangeHandler = (e: ChangeEvent<HTMLInputElement>) => setInputValue(e.currentTarget.value);
     const onInputEnterPressHandler = (e: KeyboardEvent<HTMLInputElement>) => {
         if (e.charCode === 13) {
-            inputValue && alert('Hello, ' + inputValue);
-            inputValue && setArr([...arr, {id: v1(), name: inputValue}]);
-            setInputValue('');
+            onSendBtnClickHandler();
         }
     }
 

@@ -1,0 +1,57 @@
+
+
+.container{
+    width:400px;
+    height: 400px;
+    background-color: rgba(17, 11, 80, 0.82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    height: 30px;
+    width: 200px;
+    margin-right: 10px;
+
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input_container{
+    height: 30px;
+}
+
+.send_btn{
+    width:60px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #cecece;
+    background: #f6f6f6;
+    box-shadow: inset 0px 20px 20px #ffffff;
+    border-radius: 8px;
+    padding: 8px 14px;
+    margin-top: 15px;
+    outline: none;
+    background: #4676D7;
+}
+.send_btn:hover{
+    cursor:pointer;
+    background: #1d49aa;
+}
+.send_btn:active {
+    box-shadow: 0 0 0 2px #cbd6ee;
+}
+
+.error_mess{
+    color:red;
+    font-family: -apple-system;
+    font-style: italic;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+

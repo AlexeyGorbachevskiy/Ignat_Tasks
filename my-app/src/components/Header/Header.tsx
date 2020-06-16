@@ -13,6 +13,7 @@ function Header() {
             <span><NavLink className={obj.link} to={'/first_task'}>First task</NavLink></span>
             <span> <NavLink className={obj.link} to={'/second_task'}>Second task</NavLink></span>
             <span> <NavLink className={obj.link} to={'/third_task'}>Third task</NavLink></span>
+            <span> <NavLink className={obj.link} to={'/fourth_task'}>Fourth task</NavLink></span>
             </span>
         </div>
 

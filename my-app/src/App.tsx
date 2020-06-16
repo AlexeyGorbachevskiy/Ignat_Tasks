@@ -9,6 +9,7 @@ import {BrowserRouter, Route} from "react-router-dom";
 import FirstTask from "./components/FirstTask/FirstTask";
 import SecondTask from "./components/SecondTask/SecondTask";
 import ThirdTask from "./components/ThirdTask/ThirdTask";
+import FourthTask from "./components/FourthTask/FourthTask";
 
 export type FilterStateType = 'all' | 'high' | 'medium' | 'low';
 
@@ -23,6 +24,7 @@ function App(props: StatePropsType) {
                     <Route path='/first_task' render={() => <FirstTask state={props.state}/>}/>
                     <Route path='/second_task' render={() => <SecondTask state={props.state}/>}/>
                     <Route path='/third_task' render={() => <ThirdTask state={props.state}/>}/>
+                    <Route path='/fourth_task' render={() => <FourthTask/>}/>
 
                 </div>
 

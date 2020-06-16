@@ -71,7 +71,7 @@ const state = {
             {id: 1, affair: 'Programming', priority: 'high'},
             {id: 2, affair: 'Training', priority: 'high'},
             {id: 3, affair: 'Reading', priority: 'medium'},
-            {id: 4, affair: 'Fishing', priority: 'low'}
+            {id: 4, affair: 'Fishing', priority: 'low'},
         ]
 
     }
