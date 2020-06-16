@@ -5,7 +5,7 @@ import YourMessage from './components/FirstTask/MessageItem/YourMessage/YourMess
 import {StatePropsType} from "./redux/state";
 import MyAffairs from "./components/SecondTask/MyAffairs/MyAffairs";
 import Header from "./components/Header/Header";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, HashRouter, Route} from "react-router-dom";
 import FirstTask from "./components/FirstTask/FirstTask";
 import SecondTask from "./components/SecondTask/SecondTask";
 import ThirdTask from "./components/ThirdTask/ThirdTask";
@@ -16,7 +16,7 @@ export type FilterStateType = 'all' | 'high' | 'medium' | 'low';
 function App(props: StatePropsType) {
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className={'container'}>
                 <Header/>
                 <div className={'content'}>
@@ -29,7 +29,7 @@ function App(props: StatePropsType) {
                 </div>
 
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
