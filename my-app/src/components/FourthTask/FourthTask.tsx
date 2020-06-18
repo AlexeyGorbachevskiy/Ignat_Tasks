@@ -47,7 +47,7 @@ function FourthTask() {
             <Button
                 onClick={onSendBtnClickHandler}
                 className={obj.send_btn}
-            />
+            >Send</Button>
         </div>
 
     );

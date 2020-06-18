@@ -26,6 +26,8 @@ function App(props: StatePropsType) {
                     <Route path='/second_task' render={() => <SecondTask state={props.state}/>}/>
                     <Route path='/third_task' render={() => <ThirdTask state={props.state}/>}/>
                     <Route path='/fourth_task' render={() => <FourthTask/>}/>
+                    <Route exact path='/pre_junior'
+                           render={() => <span className={'pre_junior'}>Pre Junior: <br/>Fifth task is done.</span>}/>
                 </div>
             </div>
         </HashRouter>

@@ -9,7 +9,7 @@ function Button(props: ButtonPropsType) {
 
 
     return (
-        <button{...props}>Send</button>
+        <button{...props}/>
     );
 }
 
