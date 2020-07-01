@@ -32,20 +32,33 @@ function Header() {
                 <span className={obj.menu_list}>
                     <NavLink className={obj.pre_junior} to={'/pre_junior'}>
                         <span className={obj.pre_junior}>Pre Junior
-
-                    <div className={obj.pre_junior_dropdown}>
-                        <div className={obj.pre_junior_dropdown_content}>
-                        <span><NavLink className={obj.link} to={'/first_task'}>First task</NavLink></span>
-                        <span> <NavLink className={obj.link} to={'/second_task'}>Second task</NavLink></span>
-                        <span> <NavLink className={obj.link} to={'/third_task'}>Third task</NavLink></span>
-                        <span> <NavLink className={obj.link} to={'/fourth_task'}>Fourth task</NavLink></span>
-                        </div>
-                    </div>
-
-                    </span>
+                            <div className={obj.pre_junior_dropdown}>
+                                  <div className={obj.pre_junior_dropdown_content}>
+                                      <span><NavLink className={obj.link} to={'/first_task'}>First task</NavLink></span>
+                                      <span> <NavLink className={obj.link}
+                                                      to={'/second_task'}>Second task</NavLink></span>
+                                      <span> <NavLink className={obj.link}
+                                                      to={'/third_task'}>Third task</NavLink></span>
+                                      <span> <NavLink className={obj.link}
+                                                      to={'/fourth_task'}>Fourth task</NavLink></span>
+                                  </div>
+                            </div>
+                        </span>
                     </NavLink>
 
-                    <span className={obj.junior}>Junior</span>
+                    <NavLink className={obj.junior} to={'/junior'}>
+                    <span className={obj.junior}>Junior
+                    <div className={obj.junior_dropdown}>
+                                  <div className={obj.junior_dropdown_content}>
+                                      <span>
+                                          <NavLink className={obj.link} to={'/sixth_task'}>
+                                          Sixth task
+                                          </NavLink>
+                                      </span>
+                                  </div>
+                            </div>
+                    </span>
+                    </NavLink>
                     <span className={obj.junior_plus}>Junior+</span>
 
 

@@ -70,8 +70,10 @@ const state = {
         affairsInitArray: [
             {id: 1, affair: 'Programming', priority: 'high'},
             {id: 2, affair: 'Training', priority: 'high'},
-            {id: 3, affair: 'Reading', priority: 'medium'},
-            {id: 4, affair: 'Fishing', priority: 'low'},
+            {id: 3, affair: 'Fishing', priority: 'low'},
+            {id: 4, affair: 'Reading', priority: 'high'},
+            {id: 5, affair: 'Roll a cotton', priority: 'low'},
+            {id: 6, affair: 'Guitar', priority: 'medium'},
         ]
 
     }

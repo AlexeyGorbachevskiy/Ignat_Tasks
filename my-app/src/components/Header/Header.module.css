@@ -140,9 +140,33 @@
     font-size: 20px;
 }
 
+
+.junior_dropdown {
+    position: relative;
+    display: inline-block;
+    /*top:-17px; left:5px;*/
+    top: 5px;
+    right: 100px;
+}
+
+.junior_dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(144, 35, 35, 0.2);
+    z-index: 1;
+}
+
 .junior:hover {
     color: red;
 }
+
+
+.junior:hover .junior_dropdown_content {
+    display: block;
+}
+
 
 .junior_plus {
     cursor: pointer;

@@ -1,6 +1,6 @@
 import React, {ChangeEvent, KeyboardEvent, useState} from 'react';
 import obj from './ThirdTask.module.css';
-import {StatePropsType} from "../../redux/state";
+import {StatePropsType} from "../../state/state";
 import {v1} from "uuid";
 
 type ArrayElementType = {

@@ -1,12 +1,13 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
-import {StatePropsType} from "./redux/state";
+import {StatePropsType} from "./state/state";
 import Header from "./components/Header/Header";
 import {BrowserRouter, HashRouter, NavLink, Route} from "react-router-dom";
 import FirstTask from "./components/FirstTask/FirstTask";
 import SecondTask from "./components/SecondTask/SecondTask";
 import ThirdTask from "./components/ThirdTask/ThirdTask";
 import FourthTask from "./components/FourthTask/FourthTask";
+import SixthTask from "./components/SixthTask/SixthTask";
 
 
 export type FilterStateType = 'all' | 'high' | 'medium' | 'low';
@@ -28,6 +29,7 @@ function App(props: StatePropsType) {
                     <Route path='/fourth_task' render={() => <FourthTask/>}/>
                     <Route exact path='/pre_junior'
                            render={() => <span className={'pre_junior'}>Pre Junior: <br/>Fifth task is done.</span>}/>
+                    <Route path='/sixth_task' render={() => <SixthTask/>}/>
                 </div>
             </div>
         </HashRouter>

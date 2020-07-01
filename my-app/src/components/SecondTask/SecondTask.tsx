@@ -1,6 +1,6 @@
 import MyAffairs from "./MyAffairs/MyAffairs";
 import React, {useState} from "react";
-import {StatePropsType} from "../../redux/state";
+import {StatePropsType} from "../../state/state";
 import {FilterStateType} from "../../App";
 
 

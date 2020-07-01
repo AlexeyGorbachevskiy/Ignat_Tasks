@@ -1,6 +1,6 @@
 import React from 'react';
 import obj from './MyAffairs.module.css';
-import {AffairsInitArrayType} from '../../../redux/state';
+import {AffairsInitArrayType} from '../../../state/state';
 import {FilterStateType} from "../../../App";
 
 

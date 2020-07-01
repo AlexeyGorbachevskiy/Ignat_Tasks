@@ -1,6 +1,6 @@
 import React from 'react';
 import obj from './YourMessage.module.css';
-import {MessageItemType} from "../../../../redux/state";
+import {MessageItemType} from "../../../../state/state";
 
 
 type YourMessagePropsType = {

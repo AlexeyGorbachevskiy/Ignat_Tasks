@@ -1,6 +1,6 @@
 import React from 'react';
 import obj from './FirstTask.module.css';
-import {StatePropsType} from "../../redux/state";
+import {StatePropsType} from "../../state/state";
 import NotYourMessage from "./MessageItem/NotYourMessage/NotYourMessage";
 import YourMessage from "./MessageItem/YourMessage/YourMessage";
 
