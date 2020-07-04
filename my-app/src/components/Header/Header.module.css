@@ -46,7 +46,7 @@
     height: 30px;
     color: white;
     outline: none;
-    font-family: -apple-system;
+    /*font-family: -apple-system;*/
     transition: color;
     transition-duration: 1s;
 }
@@ -66,7 +66,7 @@
     /*background-color: #000000;*/
     color: white;
     outline: none;
-    font-family: -apple-system;
+    /*font-family: -apple-system;*/
     transition: color;
     transition-duration: 1s;
 

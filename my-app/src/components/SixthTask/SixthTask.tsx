@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import obj from "./SixthTask.module.css";
 import EditableSpan from "./EditableSpan";
 
@@ -21,14 +21,15 @@ function SixthTask() {
         return defaultState;
     }
 
-    let inputValue = '';
+    let [inputValue,setInputValue]=useState<string>('Click on me twice');
 
     const onInputChange = (value: string) => {
-        inputValue = value;
+        setInputValue(value);
     }
 
     const onSaveClick = () => {
         saveState<StateType>("test", {x: inputValue, y: 1});
+        setInputValue('');
     }
 
     const onRestoreClick = () => {
@@ -48,7 +49,7 @@ function SixthTask() {
 
     return (
         <div className={obj.wrapper}>
-            <EditableSpan onInputChange={onInputChange} value='Click on me twice'/>
+            <EditableSpan onInputChange={onInputChange} value='Click on me twice' inputValue={inputValue}/>
             <div className={obj.btn_wrapper}>
                 <button onClick={onSaveClick} className={obj.save}>Save</button>
                 <button onClick={onRestoreClick} className={obj.restore}>Restore</button>

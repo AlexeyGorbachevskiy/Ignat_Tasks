@@ -5,7 +5,8 @@ import obj from "./EditableSpan.module.css";
 
 type EditableSpanPropsType = {
     value: string
-    onInputChange:(value:string)=>void
+    onInputChange: (value: string) => void
+    inputValue: string
 }
 
 function EditableSpan(props: EditableSpanPropsType) {
@@ -20,10 +21,13 @@ function EditableSpan(props: EditableSpanPropsType) {
             {
                 editMode ?
                     <Input
-                        onChange={(e:ChangeEvent<HTMLInputElement>)=>props.onInputChange(e.currentTarget.value)}
+                        value={props.inputValue}
+                        onChange={(e: ChangeEvent<HTMLInputElement>) => props.onInputChange(e.currentTarget.value)}
                         autoFocus
                         className={obj.input}
-                        onBlur={()=>{setEditMode(false);}}
+                        onBlur={() => {
+                            setEditMode(false);
+                        }}
                     />
                     :
                     <span onDoubleClick={onSpanDblClick} className={obj.editable_span}>{props.value}</span>
