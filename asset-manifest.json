@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/React_Tasks/static/css/main.a4d2f2d0.chunk.css",
-    "main.js": "/React_Tasks/static/js/main.9960d7a3.chunk.js",
-    "main.js.map": "/React_Tasks/static/js/main.9960d7a3.chunk.js.map",
+    "main.css": "/React_Tasks/static/css/main.e7484c00.chunk.css",
+    "main.js": "/React_Tasks/static/js/main.74a7c4d7.chunk.js",
+    "main.js.map": "/React_Tasks/static/js/main.74a7c4d7.chunk.js.map",
     "runtime-main.js": "/React_Tasks/static/js/runtime-main.68887597.js",
     "runtime-main.js.map": "/React_Tasks/static/js/runtime-main.68887597.js.map",
     "static/css/2.21e70790.chunk.css": "/React_Tasks/static/css/2.21e70790.chunk.css",
     "static/js/2.c33de3c3.chunk.js": "/React_Tasks/static/js/2.c33de3c3.chunk.js",
     "static/js/2.c33de3c3.chunk.js.map": "/React_Tasks/static/js/2.c33de3c3.chunk.js.map",
     "index.html": "/React_Tasks/index.html",
-    "precache-manifest.360d1e5187af7ae979bc5ae0a2bf432f.js": "/React_Tasks/precache-manifest.360d1e5187af7ae979bc5ae0a2bf432f.js",
+    "precache-manifest.abe5c498572d10b8171c3db3d66367bc.js": "/React_Tasks/precache-manifest.abe5c498572d10b8171c3db3d66367bc.js",
     "service-worker.js": "/React_Tasks/service-worker.js",
     "static/css/2.21e70790.chunk.css.map": "/React_Tasks/static/css/2.21e70790.chunk.css.map",
-    "static/css/main.a4d2f2d0.chunk.css.map": "/React_Tasks/static/css/main.a4d2f2d0.chunk.css.map",
+    "static/css/main.e7484c00.chunk.css.map": "/React_Tasks/static/css/main.e7484c00.chunk.css.map",
     "static/js/2.c33de3c3.chunk.js.LICENSE.txt": "/React_Tasks/static/js/2.c33de3c3.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/React_Tasks/static/media/fontawesome-webfont.fee66e71.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.68887597.js",
     "static/css/2.21e70790.chunk.css",
     "static/js/2.c33de3c3.chunk.js",
-    "static/css/main.a4d2f2d0.chunk.css",
-    "static/js/main.9960d7a3.chunk.js"
+    "static/css/main.e7484c00.chunk.css",
+    "static/js/main.74a7c4d7.chunk.js"
   ]
 }
