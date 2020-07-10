@@ -54,6 +54,9 @@ function Header() {
                                           <NavLink className={obj.link} to={'/sixth_task'}>
                                           Sixth task
                                           </NavLink>
+                                          <NavLink className={obj.link} to={'/seventh_task'}>
+                                          Seventh task
+                                          </NavLink>
                                       </span>
                                   </div>
                             </div>
