@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/React_Tasks/static/css/main.64d8d1e1.chunk.css",
-    "main.js": "/React_Tasks/static/js/main.6394d262.chunk.js",
-    "main.js.map": "/React_Tasks/static/js/main.6394d262.chunk.js.map",
-    "runtime-main.js": "/React_Tasks/static/js/runtime-main.68887597.js",
-    "runtime-main.js.map": "/React_Tasks/static/js/runtime-main.68887597.js.map",
+    "main.css": "/React_Tasks/static/css/main.61e469dc.chunk.css",
+    "main.js": "/React_Tasks/static/js/main.ec44819d.chunk.js",
+    "main.js.map": "/React_Tasks/static/js/main.ec44819d.chunk.js.map",
+    "runtime-main.js": "/React_Tasks/static/js/runtime-main.5df45117.js",
+    "runtime-main.js.map": "/React_Tasks/static/js/runtime-main.5df45117.js.map",
     "static/css/2.21e70790.chunk.css": "/React_Tasks/static/css/2.21e70790.chunk.css",
-    "static/js/2.18108111.chunk.js": "/React_Tasks/static/js/2.18108111.chunk.js",
-    "static/js/2.18108111.chunk.js.map": "/React_Tasks/static/js/2.18108111.chunk.js.map",
+    "static/js/2.1b535d13.chunk.js": "/React_Tasks/static/js/2.1b535d13.chunk.js",
+    "static/js/2.1b535d13.chunk.js.map": "/React_Tasks/static/js/2.1b535d13.chunk.js.map",
     "index.html": "/React_Tasks/index.html",
-    "precache-manifest.0bba78444235329c9322358c07640084.js": "/React_Tasks/precache-manifest.0bba78444235329c9322358c07640084.js",
+    "precache-manifest.a3435849f32b4dca40793405faf87dcd.js": "/React_Tasks/precache-manifest.a3435849f32b4dca40793405faf87dcd.js",
     "service-worker.js": "/React_Tasks/service-worker.js",
     "static/css/2.21e70790.chunk.css.map": "/React_Tasks/static/css/2.21e70790.chunk.css.map",
-    "static/css/main.64d8d1e1.chunk.css.map": "/React_Tasks/static/css/main.64d8d1e1.chunk.css.map",
-    "static/js/2.18108111.chunk.js.LICENSE.txt": "/React_Tasks/static/js/2.18108111.chunk.js.LICENSE.txt",
+    "static/css/main.61e469dc.chunk.css.map": "/React_Tasks/static/css/main.61e469dc.chunk.css.map",
+    "static/js/2.1b535d13.chunk.js.LICENSE.txt": "/React_Tasks/static/js/2.1b535d13.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/React_Tasks/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.68887597.js",
+    "static/js/runtime-main.5df45117.js",
     "static/css/2.21e70790.chunk.css",
-    "static/js/2.18108111.chunk.js",
-    "static/css/main.64d8d1e1.chunk.css",
-    "static/js/main.6394d262.chunk.js"
+    "static/js/2.1b535d13.chunk.js",
+    "static/css/main.61e469dc.chunk.css",
+    "static/js/main.ec44819d.chunk.js"
   ]
 }
