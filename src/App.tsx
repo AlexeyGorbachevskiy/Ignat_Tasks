@@ -9,6 +9,7 @@ import ThirdTask from "./components/ThirdTask/ThirdTask";
 import FourthTask from "./components/FourthTask/FourthTask";
 import SixthTask from "./components/SixthTask/SixthTask";
 import SeventhTask from "./components/SeventhTask/SeventhTask";
+import EighthTask from "./components/EighthTask/EighthTask";
 
 
 export type FilterStateType = 'all' | 'high' | 'medium' | 'low';
@@ -32,6 +33,7 @@ function App(props: StatePropsType) {
                            render={() => <span className={'pre_junior'}>Pre Junior: <br/>Fifth task is done.</span>}/>
                     <Route path='/sixth_task' render={() => <SixthTask/>}/>
                     <Route path='/seventh_task' render={() => <SeventhTask/>}/>
+                    <Route path='/eighth_task' render={() => <EighthTask/>}/>
                 </div>
             </div>
         </HashRouter>
