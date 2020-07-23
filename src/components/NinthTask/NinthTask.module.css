@@ -1,0 +1,42 @@
+
+.wrapper{
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.update_btn {
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: darkmagenta;
+    width:100px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.stop_btn {
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: darkred;
+    width:100px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.date{
+    visibility: hidden;
+}
+.isHoveredDate{
+    visibility: visible;
+    background-color: #1d49aa;
+}
+
+
+
+

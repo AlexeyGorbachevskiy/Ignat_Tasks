@@ -10,6 +10,8 @@ import FourthTask from "./components/FourthTask/FourthTask";
 import SixthTask from "./components/SixthTask/SixthTask";
 import SeventhTask from "./components/SeventhTask/SeventhTask";
 import EighthTask from "./components/EighthTask/EighthTask";
+import NinthTask from "./components/NinthTask/NinthTask";
+
 
 
 export type FilterStateType = 'all' | 'high' | 'medium' | 'low';
@@ -34,6 +36,7 @@ function App(props: StatePropsType) {
                     <Route path='/sixth_task' render={() => <SixthTask/>}/>
                     <Route path='/seventh_task' render={() => <SeventhTask/>}/>
                     <Route path='/eighth_task' render={() => <EighthTask/>}/>
+                    <Route path='/ninth_task' render={() => <NinthTask/>}/>
                 </div>
             </div>
         </HashRouter>

@@ -17,6 +17,7 @@ function Header() {
 
     }
 
+
     return (
         <div className={obj.wrapper}>
             <div className={[`${obj[`${menu[0]}`]}`, `${obj[`${menu[1]}`]}`].join(" ")}>
@@ -59,6 +60,9 @@ function Header() {
                                           </NavLink>
                                            <NavLink className={obj.link} to={'/eighth_task'}>
                                           Eighth task
+                                          </NavLink>
+                                          <NavLink className={obj.link} to={'/ninth_task'}>
+                                          Ninth task
                                           </NavLink>
                                       </span>
                                   </div>
