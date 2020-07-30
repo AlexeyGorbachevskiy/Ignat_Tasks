@@ -11,6 +11,7 @@ import SixthTask from "./components/SixthTask/SixthTask";
 import SeventhTask from "./components/SeventhTask/SeventhTask";
 import EighthTask from "./components/EighthTask/EighthTask";
 import NinthTask from "./components/NinthTask/NinthTask";
+import TenthTask from "./components/TenthTask/TenthTask";
 
 
 
@@ -37,6 +38,7 @@ function App(props: StatePropsType) {
                     <Route path='/seventh_task' render={() => <SeventhTask/>}/>
                     <Route path='/eighth_task' render={() => <EighthTask/>}/>
                     <Route path='/ninth_task' render={() => <NinthTask/>}/>
+                    <Route path='/tenth_task' render={() => <TenthTask/>}/>
                 </div>
             </div>
         </HashRouter>
