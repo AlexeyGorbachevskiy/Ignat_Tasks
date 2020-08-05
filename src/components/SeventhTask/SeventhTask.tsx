@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Select from "./Select";
+import Select from "../Common/Select/Select";
 import Radio from "./Radio";
 
 

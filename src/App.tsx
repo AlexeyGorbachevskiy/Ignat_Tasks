@@ -12,15 +12,25 @@ import SeventhTask from "./components/SeventhTask/SeventhTask";
 import EighthTask from "./components/EighthTask/EighthTask";
 import NinthTask from "./components/NinthTask/NinthTask";
 import TenthTask from "./components/TenthTask/TenthTask";
-
+import EleventhTask from "./components/EleventhTask/EleventhTask";
+import TwelfthTask from "./components/TwelfthTask/TwelfthTask";
+import {useSelector} from "react-redux";
+import {AppRootType} from "./redux/store";
+import {InitialStateType} from "./redux/themeRedcer";
+import ThirteenthTask from "./components/ThirteenthTask/ThirteenthTask";
 
 
 export type FilterStateType = 'all' | 'high' | 'medium' | 'low';
 
+
+
+
 function App(props: StatePropsType) {
+
+    const state = useSelector<AppRootType, InitialStateType>(state => state.color);
     return (
         <HashRouter>
-            <div className={'container'}>
+            <div className={'container'} style={{background:state.color}}>
                 <header>
                     <Header/>
                     <NavLink to={'/'}><i className="fa fa-home fa-2x home"/></NavLink>
@@ -39,6 +49,9 @@ function App(props: StatePropsType) {
                     <Route path='/eighth_task' render={() => <EighthTask/>}/>
                     <Route path='/ninth_task' render={() => <NinthTask/>}/>
                     <Route path='/tenth_task' render={() => <TenthTask/>}/>
+                    <Route path='/eleventh_task' render={() => <EleventhTask/>}/>
+                    <Route path='/twelfth_task' render={() => <TwelfthTask/>}/>
+                    <Route path='/thirteenth_task' render={() => <ThirteenthTask/>}/>
                 </div>
             </div>
         </HashRouter>

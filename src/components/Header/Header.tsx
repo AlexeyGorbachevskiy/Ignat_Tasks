@@ -69,10 +69,27 @@ function Header() {
                                           </NavLink>
                                       </span>
                                   </div>
-                            </div>
+                    </div>
                     </span>
                     </NavLink>
-                    <span className={obj.junior_plus}>Junior+</span>
+
+                    <span className={obj.junior}>Junior+
+                    <div className={obj.junior_dropdown}>
+                         <div className={obj.junior_dropdown_content}>
+                             <span>
+                                  <NavLink className={obj.link} to={'/eleventh_task'}>
+                                          Eleventh task
+                                          </NavLink>
+                                 <NavLink className={obj.link} to={'/twelfth_task'}>
+                                     Twelfth task
+                                 </NavLink>
+                                 <NavLink className={obj.link} to={'/thirteenth_task'}>
+                                     Thirteenth task
+                                 </NavLink>
+                             </span>
+                         </div>
+                    </div>
+                    </span>
 
 
                 </span>
