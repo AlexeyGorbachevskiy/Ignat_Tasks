@@ -23,7 +23,6 @@ export const Range = React.memo((props: RangePropsType) => {
                        value={props.value}
                        onChange={changeValue}
                        className={style.slider}
-                       id={style.myRange}
                 />
             </div>
             {props.value}
